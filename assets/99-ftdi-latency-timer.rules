@@ -1,0 +1,1 @@
+ACTION=="add", SUBSYSTEMS=="tty", ENV{ID_VENDOR_ID}=="0403", RUN+="__TARGET_DIR__/ftdi-latency-timer.sh  %S$devpath"
